@@ -12,6 +12,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .header {
   display: flex;
+  flex-wrap: wrap;
   text-align: center;
   justify-content: space-between;
   background-color: #1F2937;
@@ -56,6 +57,7 @@ ul {
   justify-content: space-around;
   width: 70%;
   gap: 80px;
+  flex-wrap: wrap;
 }
 
 .hero h1 {
@@ -85,8 +87,9 @@ button {
 }
 
 img {
-  min-width: 200px;
+  width: 200px;
   flex: 0.8;
+  object-fit: cover
 }
 
 .content {
@@ -144,19 +147,19 @@ img {
   padding: 20px;
   color: #F9FAF8;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   border-radius: 5px;
+  flex-wrap: wrap;
 }
 
 .marketing {
-  margin-left: 50px;
+  margin: 50px;
 }
 
 .action button {
   margin-left: auto;
   margin: 10px;
-  margin-right: 100px;
   padding: 0px 50px;
   height: 50px;
   border: 2px solid white;
